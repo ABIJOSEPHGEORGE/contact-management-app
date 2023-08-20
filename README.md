@@ -1,46 +1,36 @@
-# Getting Started with Create React App
+# Contact Management App with COVID-19 Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Contact Management App with a built-in COVID-19 Dashboard! This application is developed using React.js and TypeScript to help you manage your contacts efficiently while staying informed about COVID-19 statistics.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Contact Management**: Easily add, edit, and delete contacts. Each contact includes essential information like name, phone number, and email.
 
-### `npm start`
+- **COVID-19 Dashboard**: Stay updated with the latest COVID-19 statistics through an interactive graphical dashboard. The dashboard displays key metrics and trends related to the pandemic.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Installation
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. Clone the repository: `git clone https://github.com/ABIJOSEPHGEORGE/contact-management-app.git`
+2. Navigate to the project directory: `cd contact-management-app`
+3. Install dependencies: `npm install`
 
-### `npm test`
+## Usage
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Start the development server: `npm start`
+2. Access the app in your browser at `http://localhost:3000`
+3. Use the contact management features to add, edit, or delete contacts.
+4. Explore the COVID-19 dashboard to view graphical information about the pandemic.
 
-### `npm run build`
+## Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **React.js**: A JavaScript library for building user interfaces.
+- **TypeScript**: A superset of JavaScript that adds static types for improved code quality.
+- **react-chartjs-2**: A wrapper around Chart.js for creating interactive charts.
+- **Leaflet**: An open-source JavaScript library for interactive maps.
+- **Redux**: A predictable state management container for JavaScript apps.
+- **Tailwind CSS**: A utility-first CSS framework for creating responsive designs.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Credits
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- COVID-19 data used in the dashboard is sourced from reliable and up-to-date public APIs.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
